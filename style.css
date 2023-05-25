@@ -12,6 +12,7 @@ body {
     line-height: 1.6;
     background-color: #f2f2f2;
     color: #333333;
+    overflow-x: hidden;
 }
 
 header {
@@ -56,14 +57,44 @@ nav ul li a {
 .attach {
     position: absolute;
     top: 100vh;
-    height: 100vh;
+    width: 100vw;
 }
 
 section {
     margin-bottom: 20px;
 }
 
-footer {
+#section-1 {
+    background-color: red;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#section-2 {
+    background-color: green;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#section-3 {
+    background-color: yellow;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* footer {
     position: relative;
     top: 200vh;
     background-color: #333333;
@@ -72,7 +103,6 @@ footer {
     text-align: center;
 }
 
-/* Responsive */
 @media (max-width: 600px) {
     header {
         text-align: center;
@@ -88,4 +118,4 @@ footer {
         display: block;
         margin-bottom: 10px;
     }
-}
+} */
