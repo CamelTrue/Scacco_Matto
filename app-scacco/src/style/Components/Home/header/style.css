@@ -1,0 +1,5 @@
+.container-header {
+    background-color: rgba(229, 166, 166, 0.4);
+    z-index: -10;
+    padding: 40px;
+}
